@@ -16,7 +16,7 @@ body{
 }
 .month{
     background-color: #b5d99d;
-    width: calc(100% / 6 - 25px); /* 6 блоків + gap */
+    width: calc(100% / 6 - 45px); /* 6 блоків + gap*/
     height: auto;
     padding: 15px;
     border-radius: 5px;
@@ -27,6 +27,7 @@ body{
     transform: scale(1.1);
     transition: 1s;
     box-shadow: 0 4px 12px rgba(181, 217, 157, 0.6);
+
 }
 .month h2{
     color: #2f2e2e;
