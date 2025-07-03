@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+.flex{
+    height: 500px;
+    background: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.element{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transition: 1s;
+}
+.element:hover{
+    border-radius: 50%;
+    background-color: grey;
+    transition: 1s;
+}
